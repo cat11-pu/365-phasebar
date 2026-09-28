@@ -1,0 +1,18 @@
+{
+  "budget": 2,
+  "bad_name_code": "E_BAD_NAME",
+  "dup_worker_code": "E_DUP_WORKER",
+  "no_worker_code": "E_NO_WORKER",
+  "dup_arrive_code": "E_DUP_ARRIVE",
+  "empty_code": "E_EMPTY",
+  "pending_code": "E_PENDING",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "workers": [], "arrived": [], "rounds": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "join", "worker": "a" },
+    { "id": 2, "kind": "join", "worker": "b" },
+    { "id": 3, "kind": "arrive", "worker": "a" },
+    { "id": 4, "kind": "arrive", "worker": "b" },
+    { "id": 5, "kind": "phase" }
+  ]
+}
